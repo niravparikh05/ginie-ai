@@ -35,5 +35,5 @@ Current version uses ChatGPT's gpt-3.5-turbo as the underlying AI model. It can 
 It also uses terraform behind the scenes to deploy and destroy your infrastructure.
 
 <p align="center">
-    <img alt="Ginie - Infra as a Conversation" src="https://raw.githubusercontent.com/niravparikh05/ginie-ai/main/ginie-ai.gif" width="600" />
+    <img alt="Ginie - Infra as a Conversation" src="https://raw.githubusercontent.com/niravparikh05/ginie-ai/main/docs/ginie-ai.gif" width="600" />
 </p>
