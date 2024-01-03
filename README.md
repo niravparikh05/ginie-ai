@@ -2,6 +2,16 @@
 
 "Ginie" is a powerful infrastructure management tool designed to streamline and automate the deployment, configuration, and maintenance of cloud-based infrastructure. It empowers developers, system administrators, and DevOps teams to manage their infrastructure efficiently through a simple and intuitive conversation.
 
+### Proof of Concept
+
+Current version uses ChatGPT's gpt-3.5-turbo as the underlying AI model. It can be replaced with any model that has latest knowledge on terraform and their provider documentation.
+
+It uses terraform behind the scenes to deploy and destroy your infrastructure.
+
+[![Screencast of the plugin in use](https://github.com/niravparikh05/ginie-ai/assets/52062717/ae5ebd88-3dd1-4462-ad59-e46bd3ed1f21)](https://github.com/niravparikh05/ginie-ai/assets/52062717/ae5ebd88-3dd1-4462-ad59-e46bd3ed1f21)
+
+*If you are having trouble viewing the video on GitHub, you can watch it on [YouTube](https://youtu.be/OEuHjQN11iI).*
+
 ### Key Features:
 
 1. Infrastructure as Code (IaC):
@@ -27,13 +37,3 @@
 6. Security and Compliance: ( to be scoped )
    - Ginie incorporates security best practices into infrastructure management, helping users adhere to compliance standards.
    - Role-based access control (RBAC) ensures that only authorized personnel can execute sensitive operations.
-
-### Proof of Concept
-
-Current version uses ChatGPT's gpt-3.5-turbo as the underlying AI model. It can be replaced with any model that has latest knowledge on terraform and their provider documentation.
-
-It also uses terraform behind the scenes to deploy and destroy your infrastructure.
-
-<p align="center">
-    <img alt="Ginie - Infra as a Conversation" src="https://raw.githubusercontent.com/niravparikh05/ginie-ai/main/docs/ginie-ai.gif" width="600" />
-</p>
